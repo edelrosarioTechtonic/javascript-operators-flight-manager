@@ -1,4 +1,5 @@
 function Passengers() {
+    "use strict";
     function checkFlightCapacity(flightCapacity, passNumArr){
         let totalPass = passNumArr.reduce((acc, cur) => acc + cur);
         if(totalPass <= flightCapacity){
